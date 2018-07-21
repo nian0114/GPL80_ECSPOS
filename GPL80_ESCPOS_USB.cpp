@@ -184,7 +184,7 @@ int POS_SetMotionUnit(int x, int y)
 {
 	string s;
 	s = "\x1D\x50\xB4\xB4";
-	WriteData(s);s
+	WriteData(s);
 	s = "\x1B\x53";
 	WriteData(s);
 
